@@ -1,0 +1,20 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)"
+[[mods]] #mandatory
+modId="bettercraft" #mandatory
+version="1.0.0" #mandatory
+displayName="Better Craft" #mandatory
+updateJSONURL="http://myurl.me/" #optional
+displayURL="http://example.com/" #optional
+logoFile="examplemod.png" #optional
+credits="Thanks for this example mod goes to Java" #optional
+authors="Love, Cheese and small house plants" #optional
+description='''
+Description.txt
+'''
+[[dependencies.bettercraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

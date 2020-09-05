@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "fr.eno.bettercraft.mixins",
+	"compatibilityLevel": "JAVA_8",
+	"refmap": "bettercraft.refmap.json",
+	"mixins": [
+            "MixinEndermanEntity",
+            "MixinEnderPearlEntity"
+	],
+	"minVersion": "0.8"
+}
